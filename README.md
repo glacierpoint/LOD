@@ -8,6 +8,7 @@ In the environmental health sciences, measurements of toxic exposures are often 
 Load the package in R as follows:
 
 library(devtools)
+
 install_github("lod","glacierpoint")
 
 Reference:
