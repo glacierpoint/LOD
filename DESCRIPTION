@@ -1,0 +1,17 @@
+Package: lod
+Type: Package
+Title: Impute exposure values for measurements below the limit of detection
+Version: 1.0
+Date: 2013-01-01
+Author: Srikesh Arunajadai
+Maintainer: Srikesh Arunajadai <sa2658@columbia.edu>
+Depends:
+    VGAM,
+    mvtnorm,
+    MASS,
+    msm,
+    moments
+Description: Impute exposure values for measurements below the limit of
+    detection assuming a Generalized Gamma Distribution
+License: GPL-2
+LazyData: true
