@@ -15,6 +15,17 @@ for the non-detects is the limit of detection}
 
 \item{control}{List of control parameters that will be passed on to optim. See optim for details.}
 }
+\value{
+Returns a list with the following elements
+\itemize{
+\item convergence - Indicator if the optimization algorithm to estimate parameters of the
+generalized gamma distribution converged. 0 indicates convergence.
+\item parameters - The parameter estimates of the generalized gamma distribution
+\item se - The standard error estimates of the parameters of the generalized gamma distribution
+\item imputed.data - A matrix of imputed values with number of columns equal to n.impute and number
+of rows equal to number of rows of data.
+}
+}
 \description{
 Estimates the exposure value for observation below the limit of detection (LOD) assuming
 generalized gamma distribution for the exposure.
